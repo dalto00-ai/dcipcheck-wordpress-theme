@@ -1,0 +1,126 @@
+{
+  "title": "DCIPCHECK Footer",
+  "type": "footer",
+  "version": "0.4",
+  "page_settings": {
+    "content_wrapper_html_tag": "footer",
+    "background_background": "classic",
+    "background_color": "#ffffff",
+    "border_border": "solid",
+    "border_width": {
+      "unit": "px",
+      "size": 1,
+      "sizes": []
+    },
+    "border_color": "#e2e8f0"
+  },
+  "content": [
+    {
+      "id": "footer-container",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-content",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color: #64748b; font-size: 14px; margin: 0;\">© 2024 DCIPCHECK. All rights reserved.</p>"
+              }
+            },
+            {
+              "id": "footer-links",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                }
+              },
+              "elements": [
+                {
+                  "id": "privacy-link",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Privacy Policy",
+                    "link": {
+                      "url": "/privacy"
+                    },
+                    "button_type": "link",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "text_color": "#64748b",
+                    "hover_color": "#3b82f6"
+                  }
+                },
+                {
+                  "id": "terms-link",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Terms of Service",
+                    "link": {
+                      "url": "/terms"
+                    },
+                    "button_type": "link",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "text_color": "#64748b",
+                    "hover_color": "#3b82f6"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "adsense-footer",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<div style=\"margin-top: 24px; min-height: 90px; background: rgba(241, 245, 249, 0.2); border: 1px dashed rgba(100, 116, 139, 0.2); border-radius: 6px; display: flex; align-items: center; justify-content: center;\">\n  <p style=\"font-size: 12px; color: #64748b;\">Advertisement Space</p>\n</div>"
+          }
+        }
+      ]
+    }
+  ]
+}
